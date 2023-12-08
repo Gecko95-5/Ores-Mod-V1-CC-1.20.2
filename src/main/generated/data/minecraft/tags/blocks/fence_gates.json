@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:stonebark_fence_gate",
+    "oresmod:deepbark_fence_gate"
+  ]
+}

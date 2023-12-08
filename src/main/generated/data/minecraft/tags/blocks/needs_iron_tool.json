@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:frosite_ore",
+    "oresmod:ice_frosite_ore",
+    "oresmod:frosite_block",
+    "oresmod:frosite_bricks",
+    "oresmod:frosite_brick_stairs",
+    "oresmod:frosite_brick_slab",
+    "oresmod:frosite_brick_wall",
+    "oresmod:frosite_tiles",
+    "oresmod:frosite_tile_stairs",
+    "oresmod:frosite_tile_slab",
+    "oresmod:frosite_tile_wall",
+    "oresmod:chiseled_frosite",
+    "oresmod:deepslate_titanium_ore",
+    "oresmod:titanium_block",
+    "oresmod:raw_titanium_block",
+    "oresmod:nether_tungsten_ore",
+    "oresmod:tungsten_block",
+    "oresmod:nether_cobalt_ore",
+    "oresmod:cobalt_block",
+    "oresmod:terracotta_gold_ore"
+  ]
+}

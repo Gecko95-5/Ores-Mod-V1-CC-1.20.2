@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": {
+      "item": "oresmod:frosite"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "F F",
+    "F F"
+  ],
+  "result": {
+    "item": "oresmod:frosite_leggings"
+  },
+  "show_notification": true
+}

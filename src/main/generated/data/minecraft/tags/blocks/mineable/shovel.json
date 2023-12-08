@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:white_sand",
+    "oresmod:gravel_coal_ore",
+    "oresmod:suspicious_white_sand",
+    "oresmod:black_sand"
+  ]
+}

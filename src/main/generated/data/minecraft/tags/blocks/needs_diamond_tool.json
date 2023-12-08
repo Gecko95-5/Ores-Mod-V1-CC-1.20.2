@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:steel_block",
+    "oresmod:raw_steel_block",
+    "oresmod:smooth_steel_block",
+    "oresmod:cut_steel",
+    "oresmod:smooth_steel_slab",
+    "oresmod:cut_steel_stairs",
+    "oresmod:cut_steel_slab",
+    "oresmod:steel_door",
+    "oresmod:steel_trapdoor",
+    "oresmod:steel_bars",
+    "oresmod:steel_pressure_plate",
+    "oresmod:steel_lamp",
+    "oresmod:titanium_alloy_block"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:frosite_brick_wall",
+    "oresmod:frosite_tile_wall",
+    "oresmod:white_sandstone_wall",
+    "oresmod:black_sandstone_wall"
+  ]
+}
