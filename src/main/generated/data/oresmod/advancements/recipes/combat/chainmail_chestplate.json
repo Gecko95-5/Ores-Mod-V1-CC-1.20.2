@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_frosite": {
+    "has_iron_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "oresmod:frosite"
+              "minecraft:iron_nugget"
             ]
           }
         ]
@@ -15,33 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:frosite_helmet"
+        "recipe": "minecraft:chainmail_chestplate"
       },
       "trigger": "minecraft:recipe_unlocked"
-    },
-    "has_white_wool": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:white_wool"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_frosite",
-      "has_white_wool"
+      "has_iron_nugget"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:frosite_helmet"
+      "minecraft:chainmail_chestplate"
     ]
   },
   "sends_telemetry_event": false

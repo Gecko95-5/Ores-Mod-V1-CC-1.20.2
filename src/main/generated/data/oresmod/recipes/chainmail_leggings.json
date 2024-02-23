@@ -2,19 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "F": {
-      "item": "oresmod:frosite"
-    },
-    "W": {
-      "item": "minecraft:white_wool"
+    "A": {
+      "item": "minecraft:iron_nugget"
     }
   },
   "pattern": [
-    "F F",
-    "W W"
+    "AAA",
+    "A A",
+    "A A"
   ],
   "result": {
-    "item": "oresmod:frosite_boots"
+    "item": "minecraft:chainmail_leggings"
   },
   "show_notification": true
 }

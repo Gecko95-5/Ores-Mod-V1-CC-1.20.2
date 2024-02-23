@@ -4,7 +4,7 @@
     "item": "oresmod:steel_ingot"
   },
   "base": {
-    "item": "minecraft:iron_boots"
+    "item": "minecraft:chainmail_boots"
   },
   "result": {
     "item": "oresmod:steel_boots"

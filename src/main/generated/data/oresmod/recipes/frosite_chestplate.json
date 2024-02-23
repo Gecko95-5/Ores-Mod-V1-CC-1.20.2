@@ -4,10 +4,13 @@
   "key": {
     "F": {
       "item": "oresmod:frosite"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
     }
   },
   "pattern": [
-    "F F",
+    "W W",
     "FFF",
     "FFF"
   ],

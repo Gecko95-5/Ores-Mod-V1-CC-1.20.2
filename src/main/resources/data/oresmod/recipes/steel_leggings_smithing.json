@@ -4,7 +4,7 @@
     "item": "oresmod:steel_ingot"
   },
   "base": {
-    "item": "minecraft:iron_leggings"
+    "item": "minecraft:chainmail_leggings"
   },
   "result": {
     "item": "oresmod:steel_leggings"

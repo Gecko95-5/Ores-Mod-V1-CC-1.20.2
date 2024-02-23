@@ -5,6 +5,7 @@ import net.gecko95.oresmod.block.ModBlocks;
 import net.gecko95.oresmod.item.ModItems;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
+import net.minecraft.loot.condition.RandomChanceWithLootingLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
@@ -60,6 +61,10 @@ public class ModLootTableModifiers {
             new Identifier("minecraft","chests/village/village_toolsmith");
     private static final Identifier VILLAGE_WEAPONSMITH_ID =
             new Identifier("minecraft","chests/village/village_weaponsmith");
+
+    private static final Identifier STRAY_ID =
+            new Identifier("minecraft","entities/stray");
+
     public static void modifyLootTables(){
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
             if (SIMPLE_DUNGEON_ID.equals(id)) {
@@ -995,6 +1000,15 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(0.384f))
                         .with(ItemEntry.builder(ModItems.ALUMINUM_INGOT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(4.0f, 8.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if (STRAY_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceWithLootingLootCondition.builder(0.1f,0.5f))
+                        .with(ItemEntry.builder(ModItems.FROSITE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }

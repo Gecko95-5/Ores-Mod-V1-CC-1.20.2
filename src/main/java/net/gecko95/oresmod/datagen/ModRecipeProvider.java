@@ -542,31 +542,39 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier("frosite_hoe"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FROSITE_HELMET)
-                .pattern("FFF")
+                .pattern("WWW")
                 .pattern("F F")
                 .pattern(" F ")
                 .input('F', ModItems.FROSITE)
+                .input('W', Items.WHITE_WOOL)
                 .criterion(hasItem(ModItems.FROSITE), conditionsFromItem(ModItems.FROSITE))
+                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .offerTo(exporter, new Identifier("frosite_helmet"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FROSITE_CHESTPLATE)
-                .pattern("F F")
+                .pattern("W W")
                 .pattern("FFF")
                 .pattern("FFF")
                 .input('F', ModItems.FROSITE)
+                .input('W', Items.WHITE_WOOL)
                 .criterion(hasItem(ModItems.FROSITE), conditionsFromItem(ModItems.FROSITE))
+                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .offerTo(exporter, new Identifier("frosite_chestplate"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FROSITE_LEGGINGS)
-                .pattern("FFF")
+                .pattern("WWW")
                 .pattern("F F")
                 .pattern("F F")
                 .input('F', ModItems.FROSITE)
+                .input('W', Items.WHITE_WOOL)
                 .criterion(hasItem(ModItems.FROSITE), conditionsFromItem(ModItems.FROSITE))
+                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .offerTo(exporter, new Identifier("frosite_leggings"));
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.FROSITE_BOOTS)
                 .pattern("F F")
-                .pattern("F F")
+                .pattern("W W")
                 .input('F', ModItems.FROSITE)
+                .input('W', Items.WHITE_WOOL)
                 .criterion(hasItem(ModItems.FROSITE), conditionsFromItem(ModItems.FROSITE))
+                .criterion(hasItem(Items.WHITE_WOOL), conditionsFromItem(Items.WHITE_WOOL))
                 .offerTo(exporter, new Identifier("frosite_boots"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_HANDLE)
@@ -2349,5 +2357,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         (ModBlocks.TUFF_IRON_ORE), RecipeCategory.MISC, Items.IRON_INGOT,0.7f, 100)
                 .criterion(hasItem(ModBlocks.TUFF_IRON_ORE), conditionsFromItem(ModBlocks.TUFF_IRON_ORE))
                 .offerTo(exporter, new Identifier("iron_ingot_from_blasting_tuff_iron_ore"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_HELMET)
+                .pattern("AAA")
+                .pattern("A A")
+                .input('A', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .offerTo(exporter, new Identifier("chainmail_helmet"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_CHESTPLATE)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .offerTo(exporter, new Identifier("chainmail_chestplate"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_LEGGINGS)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .offerTo(exporter, new Identifier("chainmail_leggings"));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_BOOTS)
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', Items.IRON_NUGGET)
+                .criterion(hasItem(Items.IRON_NUGGET), conditionsFromItem(Items.IRON_NUGGET))
+                .offerTo(exporter, new Identifier("chainmail_boots"));
     }
 }

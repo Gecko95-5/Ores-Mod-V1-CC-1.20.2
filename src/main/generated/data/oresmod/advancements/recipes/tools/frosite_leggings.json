@@ -18,12 +18,25 @@
         "recipe": "minecraft:frosite_leggings"
       },
       "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_wool"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_frosite"
+      "has_frosite",
+      "has_white_wool"
     ]
   ],
   "rewards": {

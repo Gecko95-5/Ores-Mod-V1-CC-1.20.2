@@ -1,5 +1,5 @@
-// 1.20.2	2023-12-08T11:28:06.363097	Ores Mod/Tags for minecraft:item
+// 1.20.2	2024-02-23T15:17:20.5276041	Ores Mod/Tags for minecraft:item
 d09fd133daae41057f5bf566c87bde38e3535327 data\minecraft\tags\items\sand.json
 65a2abfa3006a584a7cda4b26ace03392aef3aab data\minecraft\tags\items\trimmable_armor.json
-d09fd133daae41057f5bf566c87bde38e3535327 data\minecraft\tags\items\smelts_to_glass.json
 f48c85e419060bb7d2c795324d95f6538a7ed217 data\minecraft\tags\items\planks.json
+d09fd133daae41057f5bf566c87bde38e3535327 data\minecraft\tags\items\smelts_to_glass.json
