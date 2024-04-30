@@ -1,4 +1,4 @@
-// 1.20.2	2024-02-23T15:17:20.5286022	Ores Mod/Model Definitions
+// 1.20.2	2024-04-30T15:55:05.7357657	Ores Mod/Model Definitions
 f73a1d54051a84b53fd652c358e7fd33a40d6a1c assets\oresmod\models\item\raw_nickel.json
 869e19e00e56105ba9919f5afec5c54dca0649fa assets\oresmod\blockstates\smooth_black_sandstone_slab.json
 3ec43418147c4be42eb67a24eb5de5d2dbc64fdc assets\oresmod\models\item\copper_leggings_copper_trim.json
@@ -213,8 +213,8 @@ ec0a60c71525f0d824be2ca079dec4ac4bbb3672 assets\oresmod\models\item\tungsten_boo
 a9f6fe14a1aff628520914377c28a00c24371bc2 assets\oresmod\models\item\aluminum_leggings_emerald_trim.json
 5545dbc1dd4c6d5780ec6031542f601066b2ce2a assets\oresmod\models\item\nickel_helmet_diamond_trim.json
 c3f0900f88f5297c539eea94938be08cd39b6391 assets\oresmod\models\item\tungsten_helmet_quartz_trim.json
-1a459c98dc2b35a6824a58cf8bafdda5f855d2b5 assets\oresmod\blockstates\stonebark_button.json
 1828b17586de2d7a1f2349e06aaea146fcbf8755 assets\oresmod\blockstates\raw_titanium_block.json
+1a459c98dc2b35a6824a58cf8bafdda5f855d2b5 assets\oresmod\blockstates\stonebark_button.json
 4a89a19f5005f278f96809db89288eaae54bac9f assets\oresmod\models\item\deepbark_button.json
 d77c1c6d43b1858848c8c62f0b8b3e7d1e752052 assets\oresmod\models\block\white_sandstone_wall_side.json
 1d97772f555f7cc35637f481be89ce9776c28bd4 assets\oresmod\blockstates\smooth_white_sandstone.json

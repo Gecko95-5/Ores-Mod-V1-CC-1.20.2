@@ -144,7 +144,8 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.of(ModBlocks.STONEBARK_LEAVES),
                 new AcaciaFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1)),
 
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                new TwoLayersFeatureSize(1, 0, 2))
+                .dirtProvider(BlockStateProvider.of(Blocks.COBBLESTONE)).forceDirt().build());
 
 
         register(context, DEEPBARK_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
@@ -153,7 +154,8 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.of(ModBlocks.DEEPSLATE_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1),2),
 
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                new TwoLayersFeatureSize(1, 0, 2))
+                .dirtProvider(BlockStateProvider.of(Blocks.COBBLED_DEEPSLATE)).forceDirt().build());
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

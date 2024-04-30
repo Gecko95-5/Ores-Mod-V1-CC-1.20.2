@@ -1,4 +1,4 @@
-// 1.20.2	2024-02-23T15:17:20.5096529	Ores Mod/Block Loot Tables
+// 1.20.2	2024-04-30T15:55:05.7188135	Ores Mod/Block Loot Tables
 cf0021494da16bcc64222525410bd97b38518614 data\oresmod\loot_tables\blocks\nether_tungsten_ore.json
 f2af652fa4b7f9a3a1267e27ed18bce1c5d636ea data\oresmod\loot_tables\blocks\terracotta_gold_ore.json
 593df1605e115f1e32495b00c56be8d3d3f1f066 data\oresmod\loot_tables\blocks\nickel_pressure_plate.json
@@ -85,10 +85,10 @@ c49478a8e8411e74ffe2d3c8ecfe09b5811a66ce data\oresmod\loot_tables\blocks\raw_tit
 8777197fb82081243ead944d81b23e90bba5ba2a data\oresmod\loot_tables\blocks\steel_bars.json
 3707b87e2f7195a8b8b84ce7aec1e119df8cf97c data\oresmod\loot_tables\blocks\smooth_black_sandstone_slab.json
 5a4fc24b1a47a3fa1420fa8ac649645ee7c1d036 data\oresmod\loot_tables\blocks\frosite_brick_wall.json
+cf7eae265ffde903a1976650de963989ba4f9030 data\oresmod\loot_tables\blocks\deepbark_pressure_plate.json
 afa718338eb974cc0067428164905834e692ede9 data\oresmod\loot_tables\blocks\smooth_white_sandstone_stairs.json
 e995940a490b6574f620f96cade24086f5bcdf80 data\oresmod\loot_tables\blocks\stonebark_sapling.json
 56ec4e7d9a1fbd32822396e2916c8325b5241f2f data\oresmod\loot_tables\blocks\stripped_stonebark_wood.json
-cf7eae265ffde903a1976650de963989ba4f9030 data\oresmod\loot_tables\blocks\deepbark_pressure_plate.json
 1233ee1fadd18207d7f22fb734194b5016f4a80a data\oresmod\loot_tables\blocks\stonebark_trapdoor.json
 ae371abc163678304d5b323dcb1f1b7feb2b309a data\oresmod\loot_tables\blocks\stonebark_log.json
 18ad3d57229e3b20b2eb7e68d897b17eaa4fe4b7 data\oresmod\loot_tables\blocks\stripped_deepslate_wood.json
